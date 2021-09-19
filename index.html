@@ -1,8 +1,18 @@
 <html>
 <head>
-<title>Tropic Groupe | Acceuil</title>
+<title>Tropic Groupe | Redirect</title>
+
+    <script>
+        if (navigator.browserLanguage)
+        var language = navigator.browserLanguage;
+        else
+        var language = navigator.language;
+                            
+        if (language.indexOf('en') > -1) document.location.href = '/en/';
+        if (language.indexOf('fr') > -1) document.location.href = '/fr/';
+        else if (language.indexOf('en') > -1) document.location.href = '/en/';
+        else
+        document.location.href = '/en/index.html';
+        </script>
 </head>
-<body>
-<h1>Le site est en maintenance</h1>
-</body>
 </html>
