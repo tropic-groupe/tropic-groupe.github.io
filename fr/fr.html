@@ -1,0 +1,283 @@
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tropic Groupe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="description" content="Tropic Groupe, de nombreuses app web, site web et un serveur Minecraft tout en couleur et gratuitement"/>
+  <meta name="keywords" content="tropic groupe, tropic-groupe, site web, gratuit, app web, france">
+  <meta name="title" content="Tropic Groupe">
+  <meta property="og:title" content="Tropic Groupe">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tropic-groupe.github.io">
+  <meta property="og:image" content="https://tropic-groupe.github.io/files/logo.png">
+  <meta property="og:description" content="Tropic Groupe, de nombreuses app web, site web et un serveur Minecraft tout en couleur et gratuitement">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Tropic Groupe">
+  <meta name="twitter:description" content="Tropic Groupe, de nombreuses app web, site web et un serveur Minecraft tout en couleur et gratuitement">
+
+  <link href="https://tropic-groupe.github.io/files/logo.png" rel="icon" type="image/png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src=http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js></script>
+  <script>
+    $(function(){
+      var divs = $(".boxes");
+      divs.not("#app").hide();
+      $(".men").click(function(){
+        divs.filter(":visible").hide();
+        $($(this).attr("href")).show();
+        return false;
+      });
+    });
+  </script>
+
+<!-- Menu -->
+<menu>
+    <ul>
+      <img src="https://tropic-groupe.github.io/files/logo.png" height="32px" style="position: absolute; top: 4px; left: 10px">
+        <li><a href="https://tropic-groupe.github.io/fr/">Accueil</a></li>
+        <li><a href="https://tropic-groupe.blogspot.com/p/accueil-blog.html">Actualités</a></li>
+        <li><a href="#nous">A Propos</a></li>
+        <li><a href="#staff">Notre Equipe</a></li>
+      <li class="deroulant"><a style="cursor: pointer;">App Web &ensp;</a>
+        <ul class="sous">
+          <li><a href="https://tropic-music.github.io">Tropic Music</a></li>
+            <li><a href="https://tropic-groupe.github.io/web-home">Tropic Web home</a></li>
+            <li><a href="https://theworldindata.github.io/">TheWorldindata</a></li>
+          </ul>
+        </li>
+        <li class="deroulant"><a style="cursor: pointer;">Site Web &ensp;</a>
+          <ul class="sous">
+            <li><a href="https://tropic-mc.wix.com">Tropic mc</a></li>
+              <li><a href="https://tropic-groupe.github.io/games">Tropic Games</a></li>
+              <li><a href="https://tropic-tools.github.io">Tropic Tools</a></li>
+            </ul>
+          </li>
+      </ul>
+</menu>
+<div class="lang">
+  <a style="position: absolute; top: 4px; right: 105px" href="https://tropic-groupe.github.io/fr/"><img class="survol" src="https://tropic-groupe.github.io/files/fr.png" height="32px" style="border-radius: 10px;"/></a>
+        <a style="position: absolute; top: 4px; right: 40px" href="https://tropic-groupe.github.io/en/"><img class="survol" src="https://tropic-groupe.github.io/files/us.png" height="32px" style="border-radius: 10px;"/></a>
+</div>
+
+<!-- Bouton top -->
+<style>
+  #scrollUp
+  {
+  position: fixed;
+  bottom : 10px;
+  right: -100px;
+  opacity: 0.5;
+  }
+  </style>
+   
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <script>
+    $(function(){
+    $("#scrollUp").click(function(){
+        $("html, body").animate({scrollTop: 0},"slow");
+    });
+});
+              jQuery(function(){
+                  $(function () {
+                      $(window).scroll(function () {
+                          if ($(this).scrollTop() > 300 ) { 
+                              $('#scrollUp').css('right','10px');
+                          } else { 
+                              $('#scrollUp').removeAttr( 'style' );
+                          }
+   
+                      });
+                  });
+              });
+
+              $(function() {
+    $("a[href*='#']:not([href='#'])").click(function() {
+        if (
+            location.hostname == this.hostname
+            && this.pathname.replace(/^\//,"") == location.pathname.replace(/^\//,"")
+        ) {
+            var anchor = $(this.hash);
+            anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
+            if ( anchor.length ) {
+                $("html, body").animate( { scrollTop: anchor.offset().top }, 700);
+            }
+        }
+    });
+});
+  </script>
+</head>
+<body>
+  <center style="position: absolute; top: 100px;">
+    <div class="contenant">
+      <img src="https://tropic-groupe.github.io/files/acceuil2.png" width="100%" height="450px" style="border-radius: 50px; z-index: -1;">
+      <div class="texte_centrer">
+        <h1 class="present title"><span style='color: orange'>Tropic <span style='color: skyblue'>Groupe</span></h1>
+        <p class="info title" style="color: blue">De nombreuses app web, site web et un serveur Minecraft tout en couleur et gratuitement</p>
+      </div>
+    </div>
+    </center>
+
+    <section class="create" style="margin-top: 570px;">
+      <b><ul>
+        <li><a href="#app" class="men">Applications Web</a></li>
+        <li><a href="#site" class="men">Sites Web</a></li>
+        <li><a href="#other" class="men">Autres</a></li>
+      </ul></b>
+      
+      <div class="boxes box" id="app" style="position: absolute; left: 30px;">
+      <h2 class="btitle">Nos Applications Web</h2>
+      <center>
+      <div class="boxe"><img src="https://tropic-groupe.github.io/files/tropic-music.png" height="120px"><h2 class="btitle2">Tropic Music</h2><h3>Une plateforme de streaming audio. Télécharger, écouter vos chanson et webradio préférer</h3><a href="https://tropic-music.github.io" target="_blank"><button class="bntb">Lancer l'app</button></a></div>
+      <div class="boxe b2" id="id2"><img src="https://tropic-groupe.github.io/files/tropic-web-home.png" height="120px"><h2 class="btitle2">Tropic Web Home</h2><h3>Une page d'acceuil personnalisable pour votre navigateur web</h3><a href="https://tropic-groupe.github.io/web-home" target="_blank"><button class="bntb">Lancer l'app</button></a></div>
+      <div class="boxe b3" id="id3"><img src="https://tropic-groupe.github.io/files/theworldindatag" height="120px"><h2 class="btitle2">The World in data</h2><h3>Découvrir et informez vous sur notre monde à partir de donnée</h3><a href="https://theworldindata.github.io" target="_blank"><button class="bntb">Lancer l'app</button></a></div>
+      </center>
+      </div>
+      
+      <div class="boxes" id="site" style="position: absolute; left: 30px;">
+      <h2 class="btitle">Nos sites web</h2>
+      <center>
+      <div class="boxe"><img src="https://tropic-groupe.github.io/files/tropic-mc.png" height="120px"><h2 class="btitle2">Tropic mc</h2><h3>Un serveur Minecraft plein d'aventure</h3><a href="https://tropic-mc.wix.com/home" target="_blank"><button class="bntb">Voir le site</button></a></div>
+      <div class="boxe b2"><img src="https://tropic-groupe.github.io/files/tropic-games.png" height="120px"><h2 class="btitle2">Tropic Games</h2><h3>Un site de jeux en ligne, jouer et les télécharger gratuitement</h3><a href="https://tropic-groupe.github.io/games/" target="_blank"><button class="bntb">Voir le site</button></a></div>
+      <div class="boxe b3"><img src="https://tropic-groupe.github.io/files/tropic-tools.png" height="120px"><h2 class="btitle2">Tropic Tools</h2><h3>Découvrez de nombreux outils en ligne gratuit.</h3><a href="https://tropic-tools.github.io/" target="_blank"><button class="bntb">Voir le site</button></a></div>
+      </center>
+      </div>
+      
+      <div class="boxes" id="other" style="position: absolute; left: 30px;">
+      <h2 class="btitle">Nos autres créations</h2>
+      <center>
+      <div class="boxe"><img src="https://tropic-groupe.github.io/files/tropic-mc.png" height="120px"><h2 class="btitle2">Tropic mc (map)</h2><h3>Télecharger la dernière map de Tropic mc</h3><a href=""><button class="bntb">Télecharger la map</button></a></div>
+      </center>
+      </div>
+      </div>
+    </section>
+
+    <div style="margin-top: 50px;">
+      <center id="nous">
+<h1 class="title">A Propos</h1>
+<p>Tropic Groupe a été fondé par Léo (alias F_Gammer) en 2020. Tropic Groupe n'est qu'un simple organisation, nous ne poucéder aucun salarier, nos membre du staff ne sont que bénevole et nous les remerciont de travailler a notre côté. Nous somme donc un organisation à but non lucratif. Aujourd'hui notre équipe est composé de 3 membre.</p>
+<h1 class="title" style="margin-top: 100px;">Notre histoire</h1>
+<p>Tropic Groupe est aparu grace à discord. A l'époque Léo avait crée lors de la pandémie un serveur discord pour réunir de nombreuse personne afin de discuter et s'entraider.
+  Quelque mois plus tard un serveur Minecraft fut crée ainsi qu'un site web pour l'acompagner se fut la naissance de Tropic Groupe. Tropic groupe se développa avec la création de nombre site web tel que Tropic News (n'existe plus actuelement) ou encore Tropic Games.
+  A l'époque nos site web était crée (N'ayant pas les capacité de coder des site web) et héberger sur la platforme Wix.com puis maintenant coder (par Léo) et héberger sur Github.
+  Aujourd'hui nous posédons 3 sites web, 3 applications web et un serveur minecraft</p>
+</center>
+    </div>
+    <section class="create" style="margin-top: 40px;" id="staff">
+      <div class="box" style="position: absolute; left: 30px;">
+        <h2 class="btitle">Notre équipe</h2>
+        <center>
+        <a href="./leo"><div class="boxe b1"><img src="../F_Gammer.png" height="120px" style="border-radius: 50%;"><h2 class="btitle2">Léo (alias F_Gammer)</h2><h3>Fondateur et Développeur de Tropic Groupe, Fondateur et Buildeur sur Tropic mc</h3></div></a>
+        <a href="./b_gamer"><div class="boxe b2" id="id2"><img src="../B_gamer.png" height="120px"><h2 class="btitle2">B_gamer</h2><h3>Administrateur et Buildeur sur Tropic mc</h3></div></a>
+        <a href="./spidey1093"><div class="boxe b3" id="id3"><img src="../Spidey1093.png" height="120px" style="border-radius: 50%;"><h2 class="btitle2">Spidey1093</h2><h3>Administrateur sur Tropic mc</h3></div></a>
+        </center>
+        </div>
+    </section>
+
+<div style="margin-top: 25px;">
+<center>
+<p>©Tropic Groupe 2020-2022</p>
+<img src="https://tropic-groupe.github.io/files/barre.jpg" width="100%" height="8px" style="margin-top: 10px; margin-bottom: 5px;">
+</center>
+<div class="allcrea">
+<h2 style="text-decoration: underline;">Nos Création</h2>
+<a href="https://tropic-music.github.io" target="_blank"><p>Tropic Music</p></a>
+<a href="https://tropic-groupe.github.io/games" target="_blank"><p>Tropic Games</p></a>
+<a href="https://tropic-tools.github.io" target="_blank"><p>Tropic Tools</p></a>
+<a href="https://tropicmc.wix.com/home" target="_blank"><p>Tropic mc</p></a>
+<a href="https://theworldindata.github.io" target="_blank"><p>The World in data</p></a>
+<a href="https://tropic-groupe.github.io/web-home" target="_blank"><p>Tropic Web home</p></a>
+</div>
+<div class="vidt">
+<h2 style="text-decoration: underline;">Pour la vidéo</h2>
+<a href="https://tropic-tools.github.io/video-editor/fr/" target="_blank"><p>Vidéo Maker</p></a>
+</div>
+<div class="audiot">
+<h2 style="text-decoration: underline;">Pour l'audio</h2>
+<a href="https://tropic-tools.github.io/audio-editor/fr/" target="_blank"><p>Audio Editor</p></a>
+</div>
+<div class="devt">
+  <h2 style="text-decoration: underline;">Pour le développement</h2>
+  <a href="https://tropic-tools.github.io/fr/tools/code-editor" target="_blank"><p>Code Editor</p></a>
+  <a href="https://tropic-tools.github.io/fr/tools/color-picker" target="_blank"><p>Color Picker</p></a>
+  <a href="https://tropic-tools.github.io/fr/tools/color-generator" target="_blank"><p>Color Generator</p></a>
+</div>
+<div class="everyt">
+  <h2 style="text-decoration: underline;">Pour tous</h2>
+  <a href="https://tropic-tools.github.io/bloc-note" target="_blank"><p>Bloc Note</p></a>
+  <a href="https://tropic-tools.github.io/fr/tools/chrontime" target="_blank"><p>Chron'time</p></a>
+</div>
+<div class="about">
+  <h2 style="text-decoration: underline;">Tropic Groupe</h2>
+  <a href="#nous" id="scroll"><p>A Propos</p></a>
+  <a href="#staff" id="scroll"><p>Notre Equipe</p></a>
+  <a href="https://tropic-groupe.blogspot.com/p/accueil-blog.html" target="_blank"><p>Blog</p></a>
+</div>
+  </div>
+
+  <div style="cursor: pointer;"><img src="https://tropic-groupe.github.io/files/top.png" id="scrollUp"/></div>
+  <script src="./script.js"></script>
+</body>
+<style>
+
+/*Taille element*/
+p{
+    font-size: 21px;
+}
+h1{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+
+/*Sections*/
+.create{
+  background-color: #666;
+  height: 425px;
+  width: 100%;
+}
+
+/*Pied de page*/
+.allcrea{
+  position: absolute;
+  left: 1%;
+  height: 250px;
+  width: 25%;
+}
+.vidt{
+  position: absolute;
+  left: 30%;
+  height: 125px;
+  width: 25%;
+}
+.audiot{
+  position: absolute;
+  top: 2200px;
+  left: 30%;
+  height: 130px;
+  width: 25%;
+}
+.devt{
+  position: absolute;
+  right: 25%;
+  height: 150px;
+  width: 25%;
+}
+.everyt{
+  position: absolute;
+  top: 2240px;
+  right: 25%;
+  height: 100px;
+  width: 25%;
+}
+.about{
+  position: absolute;
+  right: 1%;
+  height: 250px;
+  width: 25%;
+}
+</style>
+</html>
