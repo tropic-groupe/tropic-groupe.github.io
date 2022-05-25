@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Tropic Groupe</title>
+
+    <script>
+        if (navigator.browserLanguage)
+        var language = navigator.browserLanguage;
+        else
+        var language = navigator.language;
+                            
+        if (language.indexOf('en') > -1) document.location.href = 'https://leo-t88.github.io/en/information';
+        if (language.indexOf('fr') > -1) document.location.href = 'https://leo-t88.github.io/fr/information';
+        else if (language.indexOf('en') > -1) document.location.href = 'https://leo-t88.github.io/en/information';
+        else
+        document.location.href = 'https://leo-t88.github.io/en/information.html';
+        </script>
+</head>
+</html>
